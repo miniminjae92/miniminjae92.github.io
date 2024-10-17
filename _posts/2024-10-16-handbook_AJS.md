@@ -46,3 +46,15 @@ title: "AngularJS commit message conventions"
 BREAKING CHANGE: Removed the old authentication method in favor of OAuth 2.0.
 
 ```
+
+CHANGELOG.md
+[참고블로그](https://velog.io/@jnary/Github-Commit-Convention)
+```
+git log <last tag> HEAD --pretty=format:%s
+```
+```
+git log <last release> HEAD --grep feature
+```
+```
+git bisect skip $(git rev-list --grep irrelevant <good place> HEAD)
+```
