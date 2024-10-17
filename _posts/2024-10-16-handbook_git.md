@@ -34,6 +34,7 @@ git status
 프로젝트의 커밋 히스토리를 확인할 때 사용.
 ```
 git log
+git log --oneline
 ```
 7. git branch: 브랜치 관련 작업
 브랜치 목록 보기, 브랜치 생성 및 삭제할 때 사용.
